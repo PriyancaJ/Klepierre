@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Barlow:600&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/bfdeebb11e.js"></script>
+
+        
+        <title>Val D'Europe</title>
+    </head>
+
+    <body>
+        <!--Navbar-->
+        <div id="accordion">
+                <div class="card">
+                  <div class="card__header">
+                      <!--Hamburger-->
+                      <div class="hamburger">
+                            <button class="btn btn-hamburger card__nav" data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">
+                                    <div class="card__container-hamburger">
+                                        <img class="card__icon1-nav" src="assets/hamburger.png">
+                                    </div>
+                            </button>
+                        </div>
+
+                    <!--Logo-->
+                    <div class="card__row1">
+                        <img class="card__logo" src="assets/val-d'europeD.png">
+                    </div>
+
+                    <!--Nav Option-->
+                    <div class="card__icon-nav">
+                        <i class="fas fa-search card__icon-search"></i>
+                        <i class="far fa-user card__icon-user"></i>
+                    </div>
+
+                </div>
+              
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                            <button type="button" class="btn btn-light btn-block card__nav-items btn--border">HOURS & ACCESS</button>
+                            <button type="button" class="btn btn-light btn-block card__nav-items btn--border">STORES &</button>
+                            <button type="button" class="btn btn-light btn-block card__nav-items btn--border">HOTS OFFERS</button>
+                            <button type="button" class="btn btn-light btn-block card__nav-items btn--border">WHAT'S HAPPENING</button>
+                            <button type="button" class="btn btn-light btn-block card__nav-items btn--border">WHAT'S ON SCREEN</button>
+                            <button type="button" class="btn btn-light btn-block card__nav-items">OUR SERVICES</button>
+                    </div>
+                    </div>
+                </div>
+        </div>
+
+        <!--Banner Image-->
+        <picture class="banner">
+                <source media="(min-width: 768px)" srcset="assets/image-shop.png">
+                <img class="banner-img" src="assets/bershka.png" alt="Flowers" style="width:auto;">
+        </picture> 
+        
+        <div class="after-banner">
+            <!--Left Fashion view-->
+            <div class="left-view">
+                <div class="tag-container">
+                    <button class="btn btn-sm woman-fashion">Women's Fashion <i class="fas fa-times"></i></button>
+                    <button class="btn btn-sm kids-fashion">Kid's Fashion <i class="fas fa-times"></i></button>                    
+                </div>
+                    <!--Show more text section-->
+                <div class="show-more-container">
+                    <p class="show-more-text">Bershka, Val d’Europe offers fun clothes and accessories and the biggest trends at
+                        small prices for women looking to rock the latest styles. Sportswear, evening
+                        wear, jeans, graphic tees, unique cuts… pick an outfit that matches your
+                        personality!
+                        <br>Find Bershka in Val d’Europe on level 1,Porte de Seine or Porte de la Marne.
+                    </p>
+                </div>
+            </div>
+
+            <!--Overlapping Tile-->
+            <div class="tile">   
+                <div class="tile2">
+                    <div class="tile3">
+                        <div class="shop-details">
+                            <!--Logo section-->
+                            <img src="assets/bershka@2x.png" class="logo-text">
+                            <p class="title-bershka"> BERSHKA </p>
+                                <!--Open map icon section-->
+                                <div class="container">
+                                    <div class="flex-container">
+                                        <div class="dot"></div> 
+                                        <p class="p-open">Open</p>
+                                    </div>
+                                    <img class="icon-map" src="assets/map.png">
+                                </div>
+                            
+                            <!--Hidden Collapsible section-->
+                            <div class="panel-collapse collapse collapse1">
+                                <p class="panel-body collapse-body1"><strong>Special Opening Hours:</strong></p>
+                                <p class="panel-body collapse-body2">These special playing times may change. <br> Don’t miss out. Get in touch with the store directly for more details.</p>
+                            </div>
+    
+                            <!--Clock Opening Hours section-->
+                            <a data-toggle="collapse" href=".collapse1">
+                                <div class="panel-group panel-light collapse-panel">
+                                    <div class="flex-container">
+                                        <img class="icon-clock" src="assets/clockg.png">
+                                        <p class="opening-hours">
+                                            <strong>Saturday<span style="margin-left:5%">10:00-</span></strong>
+                                        </p>
+                                    </div>
+                                    <img class="icon-caret" src="assets/caret-down.png">
+                                </div>
+                            </a>
+    
+                            <!--Phone section-->
+                            <div class="phone-container">
+                                <div class="flex-container">
+                                    <img class="icon-phone" src="assets/telephone.png">
+                                    <p class="panel-body phone">01 60 43 04 12</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="tile-item">
+                            <!--Tag Section-->
+                            <div class="tag-container">
+                                <button class="btn btn-sm woman-fashion">Women's Fashion <i class="fas fa-times"></i></button>
+                                <button class="btn btn-sm kids-fashion">Kid's Fashion <i class="fas fa-times"></i></button>                    
+                            </div>
+                            <!--Show more text section-->
+                            <div class="show-more-container">
+                                <p class="show-more-text">Bershka, Val d’Europe offers fun clothes and accessories and the biggest trends at
+                                    small prices for women looking to rock the latest styles. Sportswear, evening
+                                    wear, jeans, graphic tees, unique cuts… pick an outfit that matches your
+                                    personality!
+                                        <br>Find Bershka in Val d’Europe on level 1,Porte de Seine or Porte de la Marne.
+                                </p>
+                                <div class="overlap">
+                                    <button onclick="show()" class="btn btn-block btn-dark btn-more" >READ MORE!</button>                        
+                                </div>
+                            </div>  
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--tile end-->
+        </div>
+        <!--after banner end-->
+
+        <!--Google Map Section-->
+        <div class="map-container" id="map"> </div>
+
+        <!--Footer Section-->
+        <div class="footer">
+            <div class="footer-contain">
+                        <div class="footer-text">
+                                <p>The fun doesn’t stop when you leave <br> Val d’Europe, let’s keep it going over on socials!</p>
+                            </div>
+                    
+                            <div class="socials">
+                                <div class="contain-icon">
+                                    <img class="icon-fb" src="assets/fb.png">
+                                    <img class="icon-insta" src="assets/insta.png">
+                                </div>         
+                            </div>
+
+                            <div class="nav-duplicate">
+                                <ul>
+                                    <li>
+                                        <p class="heading1">YOUR VAL D'EUROPE</p>
+                                    </li>
+                                    <li>
+                                        <p class="nav-minimised">Hours & access</p>
+                                    </li>
+                                    <li>
+                                        <p class="nav-minimised">Stores &</p>
+                                    </li>
+                                    <li>
+                                        <p class="nav-minimised">Hot Offers</p>
+                                    </li>
+                                    <li>
+                                        <p class="nav-minimised">What's happening</p>
+                                    </li>
+                                    <li>
+                                        <p class="nav-minimised">What's new</p>
+                                    </li>
+                                    <li>
+                                        <p class="nav-minimised">Our services</p>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <p class="heading1">GET IN TOUCH</p>
+                                    </li>
+                                    <li>
+                                        <p class="nav-minimised">Join the team</p>
+                                    </li>
+                                    <li>
+                                        <p class="nav-minimised">Rent a permanent space</p>
+                                    </li>
+                                    <li>
+                                        <p class="nav-minimised">Rent a temporary space</p>
+                                    </li>
+                                    <li>
+                                        <p >Reach out for us</p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tbl-option">
+                                <div class="options op1">
+                                    <p class="heading">YOUR VAL D'EUROPE</p>
+                                    <p class="heading-icon">></p>
+                                </div>
+                                <div class="options op2">
+                                    <p class="heading">GET IN TOUCH</p>
+                                    <p class="heading-icon">></p>
+                                </div>
+                            </div>        
+              
+                    <div class="text-contain">
+                        <p class="heading1">STAY ONE STEP AHEAD</p>
+                        <p class="paragraph1">No one likes being in the dark. Sign up to our newsletter and forever avoid the fear of missing out.</p>
+                    </div>
+
+                    <div class="input-contain">
+                        <div class="input-group input-group-lg">
+                            <input type="text" class="form-control paragraph1" placeholder="Example@mail.com" aria-label="extra-small" aria-describedby="inputGroup-sizing-sm">
+                            <div class="input-group-append input-style">
+                                <span class="input-group-text input-style" id="inputGroup-sizing-lg">
+                                    <img class="icon-play" src="assets/play-btn.png">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-contain">
+                        <p class="heading1">FUN AT YOUR FINGERTIPS</p>
+                        <p class="paragraph1">Don’t wait ‘til you get home. Download our mobile app and start playing from your pocket.</p>
+                    </div>
+
+                    <div class="icon-contain">
+                        <img class="stores" src="assets/icon-app.png">
+                        <img class="stores" src="assets/icon-google-play.png">
+                    </div>
+
+                    <div class="terms">
+                        <p class="text-end">Terms & conditions</p>
+                        <p class="text-end separator">|</p>
+                        <p class="text-end">Legal</p>
+                        <p class="text-end separator">|</p>
+                        <p class="text-end">Data Protection</p>
+                    </div>
+            </div>
+        </div>
+      
+
+
+        <script>
+            function show() {
+                var overlapMargin = document.getElementsByClassName("overlap");
+                var i;
+                for (i = 0; i < overlapMargin.length; i++) {
+                    overlapMargin[i].style.marginTop = "0px";
+                    overlapMargin[i].style.borderTop = "0px";
+                    overlapMargin[i].style.display = "None";
+                } 
+            }
+
+            function initMap() {
+                // The location of Uluru
+                var bershka = {lat: 51.515328, lng: -0.140407};
+                // The map, centered at Uluru
+                var map = new google.maps.Map(
+                    document.getElementById('map'), {zoom: 15, center: bershka});
+            }
+
+        </script>
+
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDE5zO-3gGPk6Ybkz3eTcQhMwRlDmPu5rc&callback=initMap">
+        </script>
+    
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
